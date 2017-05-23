@@ -1,0 +1,9 @@
+build/*
+generated/*
+setup.sh
+.metadata
+RemoteSystemsTempFiles/*
+WORKSPACE.json
+.directory
+.idea/*
+

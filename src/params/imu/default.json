@@ -1,0 +1,26 @@
+{
+  "target": "imu",
+  "name": "default",
+  "description": "Default configuration",
+  "parameters": {
+    "led_sub": {
+      "topic": "led"
+    },
+    "gyro_pub": {
+      "topic": "gyro"
+    },
+    "acc_pub": {
+      "topic": "acc"
+    },
+    "mag_pub": {
+      "topic": "mag"
+    },
+    "madgwick": {
+      "topic": "imu",
+      "topicGyro": "gyro",
+      "topicAcc": "acc",
+      "topicMag": "mag",
+      "frequency": 50
+    }
+  }
+}
